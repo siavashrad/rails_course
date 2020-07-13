@@ -1,0 +1,861 @@
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_1 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Due Date "
+    group_label: "Header Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_2 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Posting Type "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_2";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_3 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "TypoDocumento "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_3";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_4 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Reference # "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_4";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_5 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Custom Field 5 "
+    group_label: "Header Custom Fields"
+    type: number
+    sql: ${TABLE}."CUSTOM_FIELD_5";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_6 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Receipt Date "
+    group_label: "Header Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_6";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_7 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "WHT Code1 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_7";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_8 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Base WHT Code1 "
+    group_label: "Header Custom Fields"
+    type: number
+    sql: ${TABLE}."CUSTOM_FIELD_8";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_9 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "WHT Code2 - Old "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_9";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_10 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Base WHT Code2 "
+    group_label: "Header Custom Fields"
+    type: number
+    sql: ${TABLE}."CUSTOM_FIELD_10";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_11 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "WHT Code2 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_11";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_12 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Fiscal Document Type "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_12";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_13 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Custom Field 13 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_13";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_14 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Custom Field 14 "
+    group_label: "Header Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_14";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_15 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "RSP Order Number "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_15";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_16 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Custom Field 16 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_16";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_17 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Custom Field 17 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_17";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_18 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Custom Field 18 "
+    group_label: "Header Custom Fields"
+    type: number
+    sql: ${TABLE}."CUSTOM_FIELD_18";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_19 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Custom Field 19 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_19";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_header_custom_field_20 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Custom Field 20 "
+    group_label: "Header Custom Fields"
+    type: number
+    sql: ${TABLE}."CUSTOM_FIELD_20";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_line_custom_field_1 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Destination Country "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_line_custom_field_2 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Referencia CoS "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_2";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_line_custom_field_3 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Supplier Name "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_3";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_line_custom_field_4 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Supplier Tax ID "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_4";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_line_custom_field_5 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Retencion RENTA "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_5";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_line_custom_field_6 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Fixed Asset "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_6";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_line_custom_field_7 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Fixed Asset Number "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_7";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_line_custom_field_8 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "New or Existing Fixed Asset? "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_8";; 
+  }
+  dimension: clone_adidasgroup_dev_0_invoice_line_custom_field_9 {
+    required_access_grants: clone_adidasgroup_dev_0
+    label: "Custom Field 9 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_9";; 
+  }
+  dimension: clone_capitalone_sf_00611892_invoice_header_custom_field_1 {
+    required_access_grants: clone_capitalone_sf_00611892
+    label: "Special Payment Request "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: clone_capitalone_sf_00611892_invoice_header_custom_field_2 {
+    required_access_grants: clone_capitalone_sf_00611892
+    label: "Invoice Review Group "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_2";; 
+  }
+  dimension: clone_capitalone_sf_00611892_invoice_header_custom_field_3 {
+    required_access_grants: clone_capitalone_sf_00611892
+    label: "Supplier Country "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_3";; 
+  }
+  dimension: clone_capitalone_sf_00611892_invoice_header_custom_field_4 {
+    required_access_grants: clone_capitalone_sf_00611892
+    label: "Invoice Research "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_4";; 
+  }
+  dimension: clone_capitalone_sf_00611892_invoice_header_custom_field_5 {
+    required_access_grants: clone_capitalone_sf_00611892
+    label: "Custom Field 5 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_5";; 
+  }
+  dimension: clone_capitalone_sf_00611892_invoice_line_custom_field_1 {
+    required_access_grants: clone_capitalone_sf_00611892
+    label: "In Service Date "
+    group_label: "Line Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: clone_capitalone_sf_00611892_invoice_line_custom_field_2 {
+    required_access_grants: clone_capitalone_sf_00611892
+    label: "Asset Profile "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_2";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_header_custom_field_1 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Payment Remit Method "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_header_custom_field_2 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Tax Rule "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_2";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_header_custom_field_3 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Inspection Date "
+    group_label: "Header Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_3";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_header_custom_field_4 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Boleto or Utility Code "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_4";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_header_custom_field_5 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Enterprise "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_5";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_header_custom_field_6 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Field 41 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_6";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_header_custom_field_7 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Custom Field 7 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_7";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_header_custom_field_8 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Custom Field 8 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_8";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_header_custom_field_9 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Custom Field 9 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_9";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_header_custom_field_10 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Custom Field 10 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_10";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_header_custom_field_11 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Custom Field 11 "
+    group_label: "Header Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_11";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_line_custom_field_1 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Addl Tax "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_line_custom_field_2 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Addl Tax Amt "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_2";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_line_custom_field_3 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Contract or Account Number "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_3";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_line_custom_field_4 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Service Start Date "
+    group_label: "Line Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_4";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_line_custom_field_5 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Billable to Client? "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_5";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_line_custom_field_6 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Service End Date "
+    group_label: "Line Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_6";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_line_custom_field_7 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Subject to Cross Charge? "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_7";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_line_custom_field_8 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Custom Field 8 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_8";; 
+  }
+  dimension: clone_concentrix_analytics_28_invoice_line_custom_field_9 {
+    required_access_grants: clone_concentrix_analytics_28
+    label: "Custom Field 9 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_9";; 
+  }
+  dimension: clone_coupa_purchasing_spendguard_27_invoice_header_custom_field_1 {
+    required_access_grants: clone_coupa_purchasing_spendguard_27
+    label: "Non-backed is "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: clone_coupa_purchasing_spendguard_27_invoice_header_custom_field_2 {
+    required_access_grants: clone_coupa_purchasing_spendguard_27
+    label: "PO Requester "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_2";; 
+  }
+  dimension: clone_coupa_purchasing_spendguard_27_invoice_header_custom_field_3 {
+    required_access_grants: clone_coupa_purchasing_spendguard_27
+    label: "Custom Field 3 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_3";; 
+  }
+  dimension: clone_coupa_purchasing_spendguard_27_invoice_header_custom_field_4 {
+    required_access_grants: clone_coupa_purchasing_spendguard_27
+    label: "Custom Field 4 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_4";; 
+  }
+  dimension: clone_coupa_purchasing_spendguard_27_invoice_header_custom_field_5 {
+    required_access_grants: clone_coupa_purchasing_spendguard_27
+    label: "Pune Office Buildout "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_5";; 
+  }
+  dimension: clone_coupa_purchasing_spendguard_27_invoice_line_custom_field_1 {
+    required_access_grants: clone_coupa_purchasing_spendguard_27
+    label: "Prepaid? "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: clone_coupa_purchasing_spendguard_27_invoice_line_custom_field_2 {
+    required_access_grants: clone_coupa_purchasing_spendguard_27
+    label: "PO# "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_2";; 
+  }
+  dimension: clone_coupa_purchasing_spendguard_27_invoice_line_custom_field_3 {
+    required_access_grants: clone_coupa_purchasing_spendguard_27
+    label: "PO not Required "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_3";; 
+  }
+  dimension: clone_coupa_purchasing_spendguard_27_invoice_line_custom_field_4 {
+    required_access_grants: clone_coupa_purchasing_spendguard_27
+    label: "Not Compliant "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_4";; 
+  }
+  dimension: clone_coupa_purchasing_spendguard_27_invoice_line_custom_field_5 {
+    required_access_grants: clone_coupa_purchasing_spendguard_27
+    label: "Custom Field 5 "
+    group_label: "Line Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_5";; 
+  }
+  dimension: clone_coupa_purchasing_spendguard_27_invoice_line_custom_field_6 {
+    required_access_grants: clone_coupa_purchasing_spendguard_27
+    label: "Custom Field 6 "
+    group_label: "Line Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_6";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_header_custom_field_1 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "Groupon Entity "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_header_custom_field_2 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "Custom Field 2 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_2";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_header_custom_field_3 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "Custom Field 3 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_3";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_header_custom_field_4 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "S-Team Org "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_4";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_header_custom_field_5 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "NetSuite ID for ReadSoft "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_5";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_header_custom_field_6 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "Legacy PO Number "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_6";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_header_custom_field_7 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "Custom Field 7 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_7";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_header_custom_field_8 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "Custom Field 8 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_8";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_header_custom_field_9 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "Custom Field 9 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_9";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_header_custom_field_10 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "Custom Field 10 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_10";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_header_custom_field_11 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "Custom Field 11 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_11";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_header_custom_field_12 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "Custom Field 12 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_12";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_line_custom_field_1 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "Service Date "
+    group_label: "Line Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_line_custom_field_2 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "Custom Field 13 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_2";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_line_custom_field_3 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "Payment Method "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_3";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_line_custom_field_4 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "*Legal Only* ATTN TO: "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_4";; 
+  }
+  dimension: clone_groupon_analytics_28_invoice_line_custom_field_5 {
+    required_access_grants: clone_groupon_analytics_28
+    label: "End Date "
+    group_label: "Line Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_5";; 
+  }
+  dimension: perf_amazon_2020_prd_dev472_invoice_header_custom_field_1 {
+    required_access_grants: perf_amazon_2020_prd_dev472
+    label: "OFA Invoice Number "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: perf_amazon_2020_prd_dev472_invoice_header_custom_field_2 {
+    required_access_grants: perf_amazon_2020_prd_dev472
+    label: "Invoice Bar Code "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_2";; 
+  }
+  dimension: perf_amazon_2020_prd_dev472_invoice_header_custom_field_3 {
+    required_access_grants: perf_amazon_2020_prd_dev472
+    label: "Custom Field 3 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_3";; 
+  }
+  dimension: perf_amazon_2020_prd_dev472_invoice_header_custom_field_4 {
+    required_access_grants: perf_amazon_2020_prd_dev472
+    label: "Custom Field 4 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_4";; 
+  }
+  dimension: perf_amazon_2020_prd_dev472_invoice_header_custom_field_5 {
+    required_access_grants: perf_amazon_2020_prd_dev472
+    label: "Custom Field 5 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_5";; 
+  }
+  dimension: perf_amazon_2020_prd_dev472_invoice_line_custom_field_1 {
+    required_access_grants: perf_amazon_2020_prd_dev472
+    label: "Match Type "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_1 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 1 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_2 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 2 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_2";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_3 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 3 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_3";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_4 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 4 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_4";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_5 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 5 "
+    group_label: "Header Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_5";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_6 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 6 "
+    group_label: "Header Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_6";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_7 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 7 "
+    group_label: "Header Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_7";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_8 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 8 "
+    group_label: "Header Custom Fields"
+    type: time
+    sql: ${TABLE}."CUSTOM_FIELD_8";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_9 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 9 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_9";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_10 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 10 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_10";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_11 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 11 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_11";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_12 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 12 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_12";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_13 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 13 "
+    group_label: "Header Custom Fields"
+    type: number
+    sql: ${TABLE}."CUSTOM_FIELD_13";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_14 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 14 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_14";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_15 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 15 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_15";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_16 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 16 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_16";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_header_custom_field_17 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 17 "
+    group_label: "Header Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_17";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_1 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Buy Group "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_1";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_2 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 2 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_2";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_3 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 3 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_3";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_4 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 4 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_4";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_5 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 5 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_5";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_6 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 6 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_6";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_7 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 7 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_7";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_9 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Destination Country "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_9";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_10 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 10 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_10";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_11 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 11 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_11";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_12 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 12 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_12";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_13 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 13 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_13";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_15 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 15 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_15";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_16 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 16 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_16";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_17 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 17 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_17";; 
+  }
+  dimension: perf_nike_dev472_v26_bulkloadfix_invoice_line_custom_field_18 {
+    required_access_grants: perf_nike_dev472_v26_bulkloadfix
+    label: "Custom Field 18 "
+    group_label: "Line Custom Fields"
+    type: string
+    sql: ${TABLE}."CUSTOM_FIELD_18";; 
+  }
